@@ -1,7 +1,6 @@
 Project description:
 
-Application of dimensionality reduction algorithms like Principal Component Analysis (PCA), Independent Component Analysis (ICA), Random Projection (RP), Random Forest
-(RF) and Linear Discriminant Analysis (LDA) on Bioresponse and Letter Recognition datasets, followed by application of unsupervised clustering techniques like k-Means clustering and GMM (Gaussian Mixture Models - based on Expectation Maximization) on both the datasets.
+Application of dimensionality reduction algorithms like Principal Component Analysis (PCA), Independent Component Analysis (ICA), Random Projection (RP), Random Forest (RF) and Linear Discriminant Analysis (LDA) on Bioresponse and Letter Recognition datasets, followed by application of unsupervised clustering techniques like k-Means clustering and GMM (Gaussian Mixture Models - based on Expectation Maximization) on both the datasets. It was also observed that adding clustering output as a feature to the training data fed to neural networks boost the output classification performance.
 
 The following methodology and steps were used for both datasets in Python 3.6 and Windows 10 machine.
 
@@ -19,7 +18,7 @@ Project_code has the following python files:
 9. RF.py that applies Random Forest to letter recognition dataset and then inputs the RF-applied data to NN from Assignment-1, plots and records the results in RF folder and apply RF to bioresponse dataset.
 10. LDA.py that applies Linear Discriminant Analysis to  letter recognition dataset and then inputs the LDA-applied data to NN from Assignment-1
 11.2_LDA.py that applies Linear Discriminant Analysis to bioresponse dataset.
-12.Clustering_step5.py takes as parameter, one of the above dimensionality reduction(DR) algorithm and then the data reduced by that DR is clusterd using k-means and GMM, for letter recognition dataset and then inputted to NN.
+12.Clustering_step5.py takes as parameter, one of the above dimensionality reduction(DR) algorithm and then the data reduced by that DR is clustered using k-means and GMM, for letter recognition dataset and then inputted to NN.
 13.TSNE.py computes the data required to plot the t-SNE plot for non DR-applied initial data. It takes as parameter "TSNE" so as to output the results to TSNE folder.
 14.plotting.py does the plotting of t-SNE for all DR-applied data.
 15.get_data.py gets the letter recognition dataset from openML and store it locally as d.pkl file.
