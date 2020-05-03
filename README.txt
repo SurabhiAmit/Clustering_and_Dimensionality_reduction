@@ -1,6 +1,6 @@
 Project description:
 
-Application of dimensionality reduction algorithms like Principal Component Analysis (PCA), Independent Component Analysis (ICA), Random Projection (RP), Random Forest (RF) and Linear Discriminant Analysis (LDA) on Bioresponse and Letter Recognition datasets, followed by application of unsupervised clustering techniques like k-Means clustering and GMM (Gaussian Mixture Models - based on Expectation Maximization) on both the datasets. It was also observed that adding clustering output as a feature to the training data fed to neural networks boost the output classification performance.
+Application of dimensionality reduction algorithms like Principal Component Analysis (PCA), Independent Component Analysis (ICA), Random Projection (RP), Random Forest (RF) and Linear Discriminant Analysis (LDA) on Bioresponse and Letter Recognition datasets, followed by application of unsupervised clustering techniques like k-Means clustering and GMM (Gaussian Mixture Models - based on Expectation Maximization) on both the datasets. It was also observed that adding clustering output as a feature to the training data fed to neural networks boosted the output classification performance.
 
 The following methodology and steps were used for both datasets in Python 3.6 and Windows 10 machine.
 
